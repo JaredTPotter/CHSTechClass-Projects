@@ -5,3 +5,33 @@ img.banner {
 signin {
     font-size: 100px; 
 }
+
+.Button {
+    border-radius: 10px; 
+    height: 40px;
+}
+
+.ButtonOne {
+    margin: 20px;
+    background-color: white;
+    border-color: #098D71;
+    color: #29C090;
+}
+
+.ButtonTwo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    background-color: #098D71;
+    border-color: #098D71;
+    color: white;
+}
+
+.ButtonThree {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    background-color: #098D71;
+    border-color: #098D71;
+    color: white;
+}
