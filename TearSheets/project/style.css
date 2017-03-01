@@ -1,4 +1,4 @@
-buttons {
+button {
     color: #29c0a0;
 
 }
@@ -6,7 +6,7 @@ outlines {
     color: #098d71;  
 
 }
-links {
+a {
     color: #75cdbc;
 
 }
