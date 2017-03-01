@@ -6,6 +6,25 @@ signin {
     font-size: 100px; 
 }
 
+.Input {
+    border-radius: 10px;     
+    margin-top: 10px; 
+}
+
+.InputOne {
+    width: 100%;
+}
+
+.InputTwo {
+    width: 47%;
+    margin-right: 5%;
+}
+
+.InputThree {
+    margin-left: 0px;
+    width: 47%;
+}
+
 .Button {
     border-radius: 10px; 
     height: 40px;
