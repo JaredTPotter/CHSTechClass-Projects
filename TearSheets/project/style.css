@@ -1,33 +1,18 @@
-img.banner {
-    width: 100%;
-}
+button {
+    color: #29c0a0;
 
-signin {
-    font-size: 100px; 
 }
+outlines {
+    color: #098d71;  
 
-.Input {
-    border-radius: 10px;     
-    margin-top: 10px; 
 }
+a {
+    color: #75cdbc;
 
-.InputOne {
-    width: 100%;
 }
+backgrounds {
+    color: #cdede6;
 
-.InputTwo {
-    width: 47%;
-    margin-right: 5%;
-}
-
-.InputThree {
-    margin-left: 0px;
-    width: 47%;
-}
-
-.Button {
-    border-radius: 10px; 
-    height: 40px;
 }
 
 .ButtonOne {
@@ -62,3 +47,4 @@ signin {
 .logo {
     margin-top: 10px;
 }
+
