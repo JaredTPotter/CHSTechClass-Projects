@@ -1,18 +1,33 @@
-button {
-    color: #29c0a0;
-
+img.banner {
+    width: 100%;
 }
-outlines {
-    color: #098d71;  
 
+signin {
+    font-size: 100px; 
 }
-a {
-    color: #75cdbc;
 
+.Input {
+    border-radius: 10px;     
+    margin-top: 10px; 
 }
-backgrounds {
-    color: #cdede6;
 
+.InputOne {
+    width: 100%;
+}
+
+.InputTwo {
+    width: 47%;
+    margin-right: 5%;
+}
+
+.InputThree {
+    margin-left: 0px;
+    width: 47%;
+}
+
+.Button {
+    border-radius: 10px; 
+    height: 40px;
 }
 
 .ButtonOne {
@@ -38,6 +53,9 @@ backgrounds {
     background-color: #098D71;
     border-color: #098D71;
     color: white;
+<<<<<<< HEAD
+}
+=======
 }
 
 .bob {
@@ -48,3 +66,4 @@ backgrounds {
     margin-top: 10px;
 }
 
+>>>>>>> 7fd87ed1182a3038354d641116c1857adf776086
