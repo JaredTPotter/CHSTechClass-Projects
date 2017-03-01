@@ -1,4 +1,7 @@
     .orangebutton {
         color: white;
-        background-color: rgb(248, 66, 39)
+        background-color: rgb(248, 66, 39);
+        border: none;
+        padding: 15px, 30px;
+        text-align: center;
     }
