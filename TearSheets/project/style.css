@@ -2,8 +2,8 @@ img.banner {
     width: 100%;
 }
 
-signin {
-    font-size: 100px; 
+.signin {
+    font-size: 20px; 
 }
 
 .Input {
@@ -69,14 +69,30 @@ signin {
 .bob {
     margin-top: 30px;
     color: #75CDBC;
+    text-align: center;
 }
 
 .logo {
     margin-top: 10px;
+    height: 10%;
 }
 
 .or {
     font-size: 20px;
     font-weight: bold; 
     text-align: center; 
+}
+
+.create {
+    font-family: sans-serif;
+    line-height: 1.3;
+    color: grey;
+}
+
+.createParagraph {
+    line-height: 1.7; 
+}
+
+.placeholderDiv {
+    height: 100px;
 }
