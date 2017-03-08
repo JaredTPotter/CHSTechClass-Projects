@@ -72,3 +72,7 @@ signin {
     font-weight: bold; 
     text-align: center; 
 }
+.center{
+    margin:0 auto;
+    padding-top:5px;
+}
