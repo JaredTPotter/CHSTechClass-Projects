@@ -41,8 +41,6 @@ img.banner {
 .ButtonOne {
     margin: 20px;
     background-color: white;
-    border-style: solid;
-    border-width: thin;
     border-color: #098D71;
     color: #29C090;
 }
