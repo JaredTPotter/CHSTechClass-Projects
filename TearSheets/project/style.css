@@ -2,8 +2,8 @@ img.banner {
     width: 100%;
 }
 
-signin {
-    font-size: 100px; 
+.signin {
+    font-size: 20px; 
 }
 
 .Input {
@@ -66,6 +66,7 @@ signin {
 
 .logo {
     margin-top: 10px;
+    height: 10%;
 }
 
 .or {
@@ -82,4 +83,8 @@ signin {
 
 .createParagraph {
     line-height: 1.7; 
+}
+
+.placeholderDiv {
+    height: 100px;
 }
