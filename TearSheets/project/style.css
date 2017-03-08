@@ -73,3 +73,13 @@ signin {
     font-weight: bold; 
     text-align: center; 
 }
+
+.create {
+    font-family: sans-serif;
+    line-height: 1.3;
+    color: grey;
+}
+
+.createParagraph {
+    line-height: 1.7; 
+}
