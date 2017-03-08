@@ -6,6 +6,7 @@
         width: 350px;
     }
     .consultation {
+        float: right;
         color: white;
         background-color: rgb(248, 66, 39);
         border: none;
