@@ -7,8 +7,12 @@ signin {
 }
 
 .Input {
-    border-radius: 10px;     
+    border-radius: 5px;     
     margin-top: 10px; 
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    padding-left: 2px;
 }
 
 .InputOne {
@@ -16,13 +20,13 @@ signin {
 }
 
 .InputTwo {
-    width: 47%;
-    margin-right: 5%;
+    width: 45%;
+    margin-right: 8%;
 }
 
 .InputThree {
     margin-left: 0px;
-    width: 47%;
+    width: 45%;
 }
 
 .Button {
@@ -33,6 +37,8 @@ signin {
 .ButtonOne {
     margin: 20px;
     background-color: white;
+    border-style: solid;
+    border-width: thin;
     border-color: #098D71;
     color: #29C090;
 }
@@ -43,6 +49,7 @@ signin {
     border-color: #098D71;
     color: white;
     width: 100%;
+    border: none;
 }
 
 .ButtonTwoDiv {
@@ -56,6 +63,7 @@ signin {
     border-color: #098D71;
     color: white;
     width: 100%;
+    border: none;
 }
 
 .bob {
