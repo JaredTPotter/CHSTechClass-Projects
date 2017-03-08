@@ -1,0 +1,74 @@
+img.banner {
+    width: 100%;
+}
+
+signin {
+    font-size: 100px; 
+}
+
+.Input {
+    border-radius: 10px;     
+    margin-top: 10px; 
+}
+
+.InputOne {
+    width: 100%;
+}
+
+.InputTwo {
+    width: 47%;
+    margin-right: 5%;
+}
+
+.InputThree {
+    margin-left: 0px;
+    width: 47%;
+}
+
+.Button {
+    border-radius: 10px; 
+    height: 40px;
+}
+
+.ButtonOne {
+    margin: 20px;
+    background-color: white;
+    border-color: #098D71;
+    color: #29C090;
+}
+
+.ButtonTwo {
+    margin: 0px auto;
+    background-color: #098D71;
+    border-color: #098D71;
+    color: white;
+    width: 100%;
+}
+
+.ButtonTwoDiv {
+    margin: 20px auto; 
+}
+
+.ButtonThree {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #098D71;
+    border-color: #098D71;
+    color: white;
+    width: 100%;
+}
+
+.bob {
+    margin-top: 30px;
+    color: #75CDBC;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.or {
+    font-size: 20px;
+    font-weight: bold; 
+    text-align: center; 
+}
