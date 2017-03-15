@@ -1,29 +1,38 @@
-    #container {
-        height: 350px;
-        width: 350px;
-        
-    }
-    .consultation {
-        color: white;
-        background-color: rgb(248, 66, 39);
-        border: none;
-        padding: 15px, 30px;
-        text-align: center;
-        font-family: sans-serif;
-    }
-    .logo {
-        width:69%;
-        margin:15px;
-    }
-    .navbar-nav > li{
-        font-size:15px;
-        margin:2px;
-        padding:2px;
-    }
-    .navbar-nav > li> a{
-        padding:2px;
-        margin:2px;
-    }
-    .navbar-nav {
-        padding: 5px;
-    }
+@font-face {
+    font-family: 'AlternateGothicNo2';
+    src: url('fonts/alternate-gothic-no2-bt-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/alternate-gothic-no2-bt-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/alternate-gothic-no2-bt-webfont.woff') format('woff'), /* Super Modern Browsers */
+    url('fonts/alternate-gothic-no2-bt-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/alternate-gothic-no2-bt-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/alternate-gothic-no2-bt-webfont.svg#AlternateGothic') format('svg'); /* Legacy iOS */
+}
+    
+#container {
+    height: 350px;
+    width: 350px;
+}
+.consultation {
+    color: white;
+    background-color: rgb(248, 66, 39);
+    border: none;
+    padding: 15px, 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.logo {
+    width:69%;
+    margin:15px;
+}
+.navbar-nav > li{
+    font-size:15px;
+    margin:2px;
+    padding:2px;
+}
+.navbar-nav > li> a{
+    padding:2px;
+    margin:2px;
+}
+.navbar-nav {
+    padding: 5px;
+}
