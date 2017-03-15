@@ -16,7 +16,7 @@ img.banner {
     border-style: solid;
     border-width: thin;
     border-color: lightgray;
-    padding-left: 2px;
+    padding-left: 10px;
 }
 
 input:focus {
