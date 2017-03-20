@@ -20,8 +20,7 @@ img.banner {
 }
 
 input:focus {
-    box-shadow: 0 0 0 2pt #098D71; 
-    
+    box-shadow: 0 0 0 1.5pt rgba(9,141,113,.4); 
 }
 
 textarea:focus, input:focus{
@@ -82,8 +81,8 @@ textarea:focus, input:focus{
 .ButtonThree {
     margin-top: 0px;
     margin-bottom: 0px;
-    background-color: #098D71;
-    border-color: #098D71;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
     color: white;
     width: 100%;
     border: none;
@@ -134,8 +133,20 @@ textarea:focus, input:focus{
 }
 
 .slight{
+    padding-left: 15px;
+}
+
+.drag-drop-container {
+    width: 100%;
+    padding: 10%;
+    background-color: green;
+    overflow: hidden;
 }
 
 .tiny{
 
+}
+.link {
+    color: #75CDBC;
+    text-decoration: underline;
 }
