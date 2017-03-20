@@ -150,3 +150,8 @@ textarea:focus, input:focus{
     color: #75CDBC;
     text-decoration: underline;
 }
+.link {
+    text-decoration: underline;
+    color:#75CDBC;
+    margin-bottom: -2px;
+}
