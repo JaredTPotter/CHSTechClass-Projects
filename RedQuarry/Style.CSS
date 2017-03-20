@@ -21,13 +21,13 @@
     margin:15px;
 }
 
-.nav navbar-nav > li> a{
+.navbar-nav > li> a{
     padding-top:24px;
     padding-bottom:2px;
     margin:1px;
     font-family:AlternateGothicNo2;
     font-size:28px;
-    font-color:#BEBEBE;
+    font-color:lightgray;
     }
 .btn btn-default{
     width:30px;
