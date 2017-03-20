@@ -12,25 +12,46 @@ img.banner {
 
 .Input {
     border-radius: 5px;     
-    margin-top: 10px; 
+    height: 20px;
     border-style: solid;
     border-width: thin;
     border-color: lightgray;
-    padding-left: 2px;
+    padding-left: 10px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 2pt #098D71; 
+    
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+*:focus {
+    outline: none;
 }
 
 .InputOne {
     width: 100%;
+    margin-top: 20px;
+    height: 30px;
 }
 
 .InputTwo {
-    width: 45%;
-    margin-right: 8%;
+    width: 49%;
+    margin-right: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    height: 30px;
 }
 
 .InputThree {
     margin-left: 0px;
-    width: 45%;
+    width: 49%;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    height: 30px
 }
 
 .Button {
@@ -84,11 +105,11 @@ img.banner {
     text-align: center; 
     color: #2E2E2E;
 }
-<<<<<<< HEAD
+
 .center{
     margin:0 auto;
     padding-top:5px;
-=======
+}
 
 .create {
     font-family: sans-serif;
@@ -102,7 +123,6 @@ img.banner {
 
 .placeholderDiv {
     height: 100px;
->>>>>>> 36c2df87c383e6872a47893d2aa86bf6a3235849
 }
 
 .full{
