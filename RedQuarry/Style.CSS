@@ -9,7 +9,7 @@
     url('fonts/alternate-gothic-no2-bt-webfont.svg#AlternateGothic') format('svg'); /* Legacy iOS */
 }
     
-.orangebutton {
+.consultation {
     color: white;
     background-color: rgb(248, 66, 39);
     border: none;
@@ -21,8 +21,8 @@
     margin:15px;
 }
 
-.navbar-nav > li> a{
-    padding-top:23px;
+.nav navbar-nav > li> a{
+    padding-top:24px;
     padding-bottom:2px;
     margin:1px;
     font-family:AlternateGothicNo2;
