@@ -105,12 +105,18 @@ textarea:focus, input:focus{
     text-align: center; 
     color: #2E2E2E;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8284d7f6fd044e0f16a3123e52f9e315cac74eb1
 .center{
     margin:0 auto;
     padding-top:5px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8284d7f6fd044e0f16a3123e52f9e315cac74eb1
 .create {
     font-family: sans-serif;
     line-height: 1.3;
@@ -128,9 +134,25 @@ textarea:focus, input:focus{
 .full{
     width:100%;
     background: blue;
-    height:30px;
+    height:100px;
+    margin:0 auto;
+    
 }
 
 .slight{
+<<<<<<< HEAD
     padding-left: 15px;
+}
+
+.drag-drop-container {
+    width: 100%;
+    padding: 10%;
+    background-color: green;
+    overflow: hidden;
+=======
+}
+
+.tiny{
+>>>>>>> 8284d7f6fd044e0f16a3123e52f9e315cac74eb1
+
 }
