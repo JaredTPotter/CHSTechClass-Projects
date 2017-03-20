@@ -84,12 +84,10 @@ img.banner {
     text-align: center; 
     color: #2E2E2E;
 }
-<<<<<<< HEAD
 .center{
     margin:0 auto;
     padding-top:5px;
-=======
-
+}
 .create {
     font-family: sans-serif;
     line-height: 1.3;
@@ -102,7 +100,6 @@ img.banner {
 
 .placeholderDiv {
     height: 100px;
->>>>>>> 36c2df87c383e6872a47893d2aa86bf6a3235849
 }
 
 .full{
@@ -113,4 +110,12 @@ img.banner {
 
 .slight{
     padding-left: 15px;
+}
+
+.drag-drop-container {
+    width: 100%;
+    padding: 10%;
+    background-color: green;
+    overflow: hidden;
+
 }
