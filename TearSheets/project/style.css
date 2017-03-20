@@ -108,9 +108,14 @@ img.banner {
 .full{
     width:100%;
     background: blue;
-    height:30px;
+    height:100px;
+    margin:0 auto;
+    
 }
 
 .slight{
-    padding-left: 15px;
+}
+
+.tiny{
+
 }
