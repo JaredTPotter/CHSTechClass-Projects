@@ -2,7 +2,7 @@
     #container {
         float: right;
         font-family: sans-serif;
-        color: lightslategrey;
+        color: lightgray;
         font-size: 18pt;
         height: 350px;
         width: 350px;
@@ -38,14 +38,17 @@
     margin:15px;
 }
 
-.navbar-nav > li> a{
+.navbar-default .navbar-nav > li > a{
     padding-top:24px;
     padding-bottom:2px;
     margin:1px;
     font-family:AlternateGothicNo2;
     font-size:28px;
-    font-color:lightgray;
+    color:#BEBEBE;
     }
+.navbar-default .navbar-nav > li >a:hover{
+    color:magenta;
+}
 .btn btn-default{
     width:30px;
 }
