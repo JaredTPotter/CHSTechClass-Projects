@@ -24,15 +24,21 @@
     width:69%;
     margin:15px;
 }
-.navbar-nav > li{
-    font-size:15px;
-    margin:2px;
-    padding:2px;
-}
+
 .navbar-nav > li> a{
+<<<<<<< HEAD
     padding:2px;
     margin:2px;
 }
 .navbar-nav {
     padding: 5px;
 }
+=======
+    padding-top:23px;
+    padding-bottom:2px;
+    margin:2px;
+    font-family:AlternateGothicNo2;
+    font-size:28px;
+    font-color:#BEBEBE;
+    }
+>>>>>>> 33d8150e0a0badc9af41b56418ae5d31a81a2ca9
