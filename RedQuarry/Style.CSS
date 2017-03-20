@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'AlternateGothicNo2';
     src: url('fonts/alternate-gothic-no2-bt-webfont.eot'); /* IE9 Compat Modes */
@@ -8,17 +9,12 @@
     url('fonts/alternate-gothic-no2-bt-webfont.svg#AlternateGothic') format('svg'); /* Legacy iOS */
 }
     
-#container {
-    height: 350px;
-    width: 350px;
-}
-.consultation {
+.orangebutton {
     color: white;
     background-color: rgb(248, 66, 39);
     border: none;
     padding: 15px, 30px;
     text-align: center;
-    font-family: sans-serif;
 }
 .logo {
     width:69%;
@@ -26,19 +22,13 @@
 }
 
 .navbar-nav > li> a{
-<<<<<<< HEAD
-    padding:2px;
-    margin:2px;
-}
-.navbar-nav {
-    padding: 5px;
-}
-=======
     padding-top:23px;
     padding-bottom:2px;
-    margin:2px;
+    margin:1px;
     font-family:AlternateGothicNo2;
     font-size:28px;
     font-color:#BEBEBE;
     }
->>>>>>> 33d8150e0a0badc9af41b56418ae5d31a81a2ca9
+.btn btn-default{
+    width:30px;
+}
