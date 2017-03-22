@@ -155,3 +155,7 @@ textarea:focus, input:focus{
     color:#75CDBC;
     margin-bottom: -2px;
 }
+
+.blue{
+       background-color: cornflowerblue;
+}
