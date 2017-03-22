@@ -49,8 +49,8 @@
 .navbar-default .navbar-nav > li >a:hover{
     color:magenta;
 }
-.navbar-default .navbar-nav > li >a .twitter{
-    padding-top:5px;
+.navbar-default .navbar-nav > li >a.twitter{
+    padding-top:27px;
 }
 .btn btn-default{
     width:30px;
