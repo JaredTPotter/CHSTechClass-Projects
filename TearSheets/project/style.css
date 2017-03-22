@@ -156,6 +156,13 @@ textarea:focus, input:focus{
     margin-bottom: -2px;
 }
 
+<<<<<<< HEAD
 .blue{
        background-color: cornflowerblue;
+=======
+.one { 
+    border: center;
+
+
+>>>>>>> 246389295b5e3cc236213a58a1804c03e77a3ff8
 }
