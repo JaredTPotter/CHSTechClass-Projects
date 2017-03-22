@@ -29,6 +29,7 @@
     width:69%;
     margin:15px;
     padding-right:2px;
+    margin-right:7px;
     }
 
 .navbar-default .navbar-nav > li > a{
@@ -47,6 +48,10 @@
 .navbar-default .navbar-nav > li >a.twitter{
     padding-top:27px;
     }
+.navbar-default .navbar-header{
+    padding-right:6px;
+    margin-right:6px;
+}
 .btn btn-default{
     width:30px;
     }
