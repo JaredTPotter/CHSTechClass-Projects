@@ -1,5 +1,5 @@
 
-    #container {
+#container {
         float: right;
         font-family: sans-serif;
         color: lightgray;
@@ -8,7 +8,7 @@
         width: 350px;
         box-shadow: 10px;
     }
-    .consultation {
+.consultation {
         color: white;
         background-color: rgb(248, 66, 39);
         border: none;
@@ -24,36 +24,34 @@
     url('fonts/alternate-gothic-no2-bt-webfont.woff') format('woff'), /* Pretty Modern Browsers */
     url('fonts/alternate-gothic-no2-bt-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
     url('fonts/alternate-gothic-no2-bt-webfont.svg#AlternateGothic') format('svg'); /* Legacy iOS */
-}
-    
-.consultation {
-    color: white;
-    background-color: rgb(248, 66, 39);
-    border: none;
-    padding: 15px, 30px;
-    text-align: center;
-}
+    }
 .logo {
     width:69%;
     margin:15px;
-}
+    padding-right:2px;
+    margin-right:7px;
+    }
 
 .navbar-default .navbar-nav > li > a{
     padding-top:24px;
     padding-bottom:2px;
-    padding-left:4px;
-    padding-right:4px;
+    padding-left:8px;
+    padding-right:8px;
     margin:1px;
     font-family:AlternateGothicNo2;
-    font-size:28px;
+    font-size:23px;
     color:#BEBEBE;
     }
 .navbar-default .navbar-nav > li >a:hover{
     color:magenta;
-}
+    }
 .navbar-default .navbar-nav > li >a.twitter{
     padding-top:27px;
+    }
+.navbar-default .navbar-header{
+    padding-right:6px;
+    margin-right:6px;
 }
 .btn btn-default{
     width:30px;
-}
+    }
