@@ -41,6 +41,8 @@
 .navbar-default .navbar-nav > li > a{
     padding-top:24px;
     padding-bottom:2px;
+    padding-left:4px;
+    padding-right:4px;
     margin:1px;
     font-family:AlternateGothicNo2;
     font-size:28px;
