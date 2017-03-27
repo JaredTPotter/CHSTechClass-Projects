@@ -94,9 +94,8 @@ textarea:focus, input:focus{
 }
 
 .bob {
-    margin-top: 30px;
     color: #75CDBC;
-    text-align: center;
+    padding-top: 30px;
 }
 
 .logo {
