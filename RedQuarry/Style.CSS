@@ -46,8 +46,14 @@
     color:magenta;
     }
 .navbar-default .navbar-nav > li >a.twitter{
-    padding-top:27px;
+    padding-top:23px;
     }
+.navbar-default .navbar-nav > li >a.facebook{
+    padding-top: 23px;
+}
+.navbar-default .navbar-nav > li >a.linkedin{
+    padding-top: 23px;
+}
 .navbar-default > div.navbar-header{
     padding-right:-6px;
     margin-right:3px;
