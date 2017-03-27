@@ -45,14 +45,11 @@
 .navbar-default .navbar-nav > li >a:hover{
     color:magenta;
     }
-.navbar-default .navbar-nav > li >a.twitter{
-    padding-top:23px;
+.navbar-default .navbar-nav > li >a.icon{
+    padding-top:19px;
     }
-.navbar-default .navbar-nav > li >a.facebook{
-    padding-top: 23px;
-}
-.navbar-default .navbar-nav > li >a.linkedin{
-    padding-top: 23px;
+.navbar-default .navbar-nav > li >a.icon-twitter{
+    padding-top:25px;
 }
 .navbar-default > div.navbar-header{
     padding-right:-6px;
