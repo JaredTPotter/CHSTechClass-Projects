@@ -1,10 +1,7 @@
     .consultation {
-        position: relative;
         color: white;
         background-color: rgb(248, 66, 39);
         border: none;
-        bottom: 15px;
-        float: center;
         height: 46px;
         width: 365px;
         text-align: center;
