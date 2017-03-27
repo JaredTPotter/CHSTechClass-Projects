@@ -58,6 +58,7 @@ h1,h1,h3,button{
     padding-right:-6px;
     margin-right:3px;
 }
-.btn btn-default{
-    width:30px;
+.btn-default{
+    background-color:black;
+    color:white;
     }
