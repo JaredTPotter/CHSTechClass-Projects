@@ -128,11 +128,14 @@ textarea:focus, input:focus{
     line-height: 1.3;
     color: grey;
     font-family: 'AlternateGothicNo2';
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .createParagraph {
     line-height: 1.7; 
     font-family: 'AlternateGothicNo2';
+    font-size: 14px;
 }
 
 .placeholderDiv {
