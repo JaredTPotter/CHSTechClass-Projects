@@ -51,6 +51,12 @@ h1 {
     vertical-align: middle;
     padding: 30px;
 }
+.formbuttons {
+    font-family: AlternateGothicNo2;
+}
+.formbuttons input {
+    width: 100%;
+}
 .formbuttons:hover {
     color: gray;
 }
@@ -106,9 +112,6 @@ h1 {
     border: 0px;
     border-radius: 0px;
     color: black;
-}
-.formbuttons {
-    padding: 0% 0% 45% 12%;
 }
 .consultationtext {
     padding: 10% 10% 10% 10%;
