@@ -2,8 +2,7 @@
         color: white;
         background-color: rgb(248, 66, 39);
         border: none;
-        height: 46px;
-        width: 365px;
+        min-height: 46px;
         text-align: center;
         font-size: 30px;
         font-family: AlternateGothicNo2;
@@ -44,7 +43,7 @@
     }
 
 .navbar-default .navbar-nav > li > a{
-    padding-top:24px;
+    padding-top:18px;
     padding-bottom:2px;
     padding-left:8px;
     padding-right:8px;
@@ -57,11 +56,15 @@
     color:gray;
     }
 .navbar-default .navbar-nav > li >a.twitter{
-    padding-top:27px;
+    padding-top:22px;
     }
 .navbar-default > div.navbar-header{
     padding-right:-6px;
     margin-right:3px;
+}
+
+#nav-icon {
+    padding-top: 0;
 }
 .btn btn-default{
     width:30px;
