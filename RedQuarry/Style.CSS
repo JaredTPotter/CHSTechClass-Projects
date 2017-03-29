@@ -66,8 +66,12 @@
 #nav-icon {
     padding-top: 0;
 }
-.btn btn-default{
-    width:30px;
+.btn-default{
+    color:black;
+    background-color:#BEBEBE;
+}
+.btn-default:hover{
+    color:gray;
 }
     .navbar-nav {
         padding: 5px;
