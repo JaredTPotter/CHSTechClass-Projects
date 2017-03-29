@@ -178,3 +178,7 @@ textarea:focus, input:focus{
 .terms {
     color: #29C090;
 }
+
+.area {
+    height: 40%;
+}
