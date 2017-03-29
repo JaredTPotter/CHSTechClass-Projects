@@ -98,11 +98,8 @@ textarea:focus, input:focus{
 
 .bob {
     color: #75CDBC;
-    padding-top: 30px;
-}
-
-.logo {
-    margin-top: 10px;
+    padding-top: 27px;
+    font-size: 18px;
 }
 
 .or {
@@ -176,4 +173,8 @@ textarea:focus, input:focus{
 
 .one { 
     border: center;
+}
+
+.terms {
+    color: #29C090;
 }
