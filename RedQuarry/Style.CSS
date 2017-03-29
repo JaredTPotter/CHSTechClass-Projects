@@ -56,11 +56,15 @@
     color:gray;
     }
 .navbar-default .navbar-nav > li >a.twitter{
-    padding-top:27px;
+    padding-top:22px;
     }
 .navbar-default > div.navbar-header{
     padding-right:-6px;
     margin-right:3px;
+}
+
+#nav-icon {
+    padding-top: 0;
 }
 .btn btn-default{
     width:30px;
