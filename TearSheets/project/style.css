@@ -182,3 +182,16 @@ textarea:focus, input:focus{
 .secondPageNavbar {
     border-bottom: 1px solid lightgrey; 
 }
+
+.subNavbarA {
+    margin: 30px;
+    text-align: center;
+} 
+
+.subNavbarB {
+    margin: 25px;
+}
+
+.b1p2 {
+    width: 200px;
+}
