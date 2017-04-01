@@ -178,3 +178,7 @@ textarea:focus, input:focus{
 .terms {
     color: #29C090;
 }
+
+.secondPageNavbar {
+    border-bottom: 1px solid lightgrey; 
+}
