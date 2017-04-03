@@ -24,6 +24,8 @@ h1 {
 
 #consultationheader h1 {
     color:white;
+    padding-top: 20%;
+    padding-left: 1%;
 }
 
 .consultation {
@@ -134,4 +136,7 @@ h1 {
 .container{
     font-family:AlternateGothicNo2;
     font-size:18px;
+}
+.hr{
+    color: white;
 }
