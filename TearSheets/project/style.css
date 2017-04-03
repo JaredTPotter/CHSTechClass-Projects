@@ -64,7 +64,8 @@ textarea:focus, input:focus{
 }
 
 .ButtonOne {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: white;
     border-color: #098D71;
     color: #29C090;
@@ -155,7 +156,9 @@ textarea:focus, input:focus{
 }
 
 .drag-drop-container {
-    width: 100%;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
     padding: 10%;
     background-color: #CDEDE6;
     overflow: hidden;
@@ -184,12 +187,15 @@ textarea:focus, input:focus{
 }
 
 .subNavbarA {
-    margin: 30px;
     text-align: center;
+    margin-top: 27px;
+    margin-bottom: 27px;
 } 
 
 .subNavbarB {
-    margin: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .b1p2 {
