@@ -156,7 +156,9 @@ textarea:focus, input:focus{
 }
 
 .drag-drop-container {
-    width: 100%;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
     padding: 10%;
     background-color: #CDEDE6;
     overflow: hidden;
