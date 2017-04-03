@@ -202,3 +202,7 @@ textarea:focus, input:focus{
 .b1p2 {
     width: 200px;
 }
+
+h2 {
+    text-align: center;
+}
