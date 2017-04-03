@@ -112,8 +112,9 @@ textarea:focus, input:focus{
 }
 
 .center{
-    margin:0 auto;
+    margin: 0px auto;
     padding-top:5px;
+    
 }
 
 @font-face {
