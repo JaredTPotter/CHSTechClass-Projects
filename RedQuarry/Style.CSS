@@ -189,8 +189,11 @@ hr{
 .dropdown:hover .dropbtn {
     background-color: #edeff2;
 }
-.input {
+.input, select {
     background: #edeff2;
     border: none;
     box-shadow: 2px 2px 4px lightgray;
+}
+input:focus, select:focus {
+    outline:2px solid rgb(248, 66, 39);
 }
