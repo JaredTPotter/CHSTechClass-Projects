@@ -215,3 +215,26 @@ textarea:focus, input:focus{
 h2 {
     text-align: center;
 }
+
+.footerNavbar {
+    height: 75px;
+    width: 100%;
+    padding: 0; 
+    border-top: 1px solid lightgrey;
+}
+
+.footerNavbarButton {
+    width: 25%;
+    margin-right: 37.5%;
+    margin-left: 37.5%;
+    margin-top: 15px;
+    margin-bottom: 10px; 
+    background-color: #098D71;
+    border-color: #098D71;
+    color: white;
+    border: none;
+    height: 45px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
