@@ -252,3 +252,34 @@ h2 {
     margin-right: 10%; 
     padding: 0;
 }
+
+h1, h2 {
+    text-align: center; 
+}
+
+.freeButton {
+    width: 100%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-color: lightgrey;
+    color: #098D71;
+}
+
+.professionalButton {
+    width: 100%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #EBF8F5;
+    border-color: #EBF8F5;
+    color: #098D71;
+}
+
+.enterpriseButton {
+    width: 100%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #CDEDE6;
+    border-color: #75CDBC;
+    color: #098D71;
+}
