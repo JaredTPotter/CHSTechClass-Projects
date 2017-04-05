@@ -209,11 +209,7 @@ textarea:focus, input:focus{
 .subNavbarB {
     margin-top: 25px;
     margin-bottom: 25px;
-    text-align: center;
-}
-
-.b1p2 {
-    width: 200px;
+    text-align: right;
 }
 
 h2 {
