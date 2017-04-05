@@ -58,7 +58,7 @@ h1 {
 .formbuttons {
     font-family: AlternateGothicNo2;
 }
-.formbuttons input {
+.formbuttons input, .formbuttons select {
     width: 100%;
 }
 .consultation:hover{
