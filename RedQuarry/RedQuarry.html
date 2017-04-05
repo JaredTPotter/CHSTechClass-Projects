@@ -120,10 +120,14 @@
                     <div class="dropdown">
                     <button class="dropbtn">Select</button>
                         <div class="dropdown-content">
-                            <a href="#">Other</a>
-                            <a href="#">Research</a>
-                            <a href="#">Management</a>
-                            <a href="#">Compliance</a>
+                                <form action="process.php" method='post'>
+                                <select name="dropdown-content">
+                                <option value="Other">Other</option>
+                                <option value="Research">Research</option>
+                                <option value="Management">Management</option>
+                                <option value="Compliance">Compliance</option>
+                                </select>
+                                </form>
                         </div>
                     </div>
                 </div>
