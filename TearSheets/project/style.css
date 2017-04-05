@@ -112,9 +112,17 @@ textarea:focus, input:focus{
 }
 
 .center{
-    margin: 0px auto;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding-top:5px;
-    
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #CDEDE6;
+    border-radius: 5px;
 }
 
 @font-face {
@@ -163,6 +171,7 @@ textarea:focus, input:focus{
     padding: 10%;
     background-color: #CDEDE6;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .link {
