@@ -305,3 +305,38 @@ ol {
     padding-left: 15px; 
 }
 
+@media screen and (max-width: 992px) {
+    body {
+        text-align: center; 
+    }
+
+    .text-left {
+        text-align: center; 
+    }
+
+    .moveMedia {
+        margin-left: 8.333333%;
+        margin-right: 8.333333%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 553px) {
+    .createButtonNav {
+        line-height: 1; 
+    }
+    .logo {
+        margin-top: 10px; 
+        width: 200px;
+    }
+    .text-right {
+        text-align: center; 
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 537px) {
+    .logo {
+        margin-left: -15px;
+    }
+}
