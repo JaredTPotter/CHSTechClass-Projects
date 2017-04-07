@@ -279,6 +279,29 @@ h1, h2 {
     color: #098D71;
 }
 
+.freeButton, .professionalButton, .enterpriseButton {
+    font-weight: bold; 
+    letter-spacing: 1.25; 
+}
+
 .firstPageNavbar {
     background-color:  white; 
 }
+
+.options, .benefits {
+    color: #888888;  
+}
+
+.optionsPrice {
+    font-family: 'AlternateGothicNo2';
+}
+
+.optionsText {
+    font-size: 17px;
+    line-height: 1.4; 
+}
+
+ol {
+    padding-left: 15px; 
+}
+
