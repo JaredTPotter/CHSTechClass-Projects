@@ -17,7 +17,7 @@ img.banner {
 
 .signin {
     font-size: 20px; 
-    margin-top: 12.5px; 
+    margin-top: 4px; 
     margin-left: 0px;
     width: 19.7%;
 }
@@ -226,7 +226,6 @@ textarea:focus, input:focus{
     margin-top: 30px;
     margin-bottom: 25px;
     text-align: right;
-    margin-left: -1.5%;
     width: 40%; 
     padding-left: 3%;
 }
@@ -339,6 +338,10 @@ ol {
     padding-left: 15px; 
 }
 
+.text-center {
+    padding-left: 5%;
+}
+
 @media screen and (max-width: 992px) {
     body {
         text-align: center; 
@@ -359,18 +362,30 @@ ol {
     .createButtonNav {
         line-height: 1; 
     }
-    .logo {
-        margin-top: 10px; 
-        width: 200px;
-    }
     .text-right {
         text-align: center; 
-        padding-top: 30px;
+        padding-top: 28px;
     }
 }
 
 @media screen and (max-width: 537px) {
     .logo {
         margin-left: -15px;
+    }
+    .signin {
+        font-size: 17px;
+    }
+    .text-center {
+        padding-left: 7px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .signin {
+        margin-left: 5%;
+    }
+    .logo {
+        margin-top: 10px; 
+        width: 200px;
     }
 }
