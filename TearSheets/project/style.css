@@ -386,3 +386,31 @@ ol {
         width: 200px;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .center {
+        margin-top: 650px;
+    }
+    ol {
+        list-style-type: none;
+    }
+}
+
+@media screen and (max-width: 944px) {
+    form {
+        width: 120%; 
+        margin-left: -10%;
+        margin-right: 10%; 
+    }
+    .inputOne, .inputTwo, .inputThree {
+        width: 100%; 
+    }
+    .inputThree {
+        margin-top: 0px; 
+    }
+    .center {
+        width: 80%; 
+        margin-left: 10%; 
+        margin-right: 10%; 
+    }
+}
