@@ -212,10 +212,8 @@ textarea:focus, input:focus{
 }
 
 .subNavbarA {
-    text-align: center;
     margin-top: 17px;
     margin-bottom: 27px;
-    padding-left: 0px;
     width: 12%;
 } 
 
@@ -276,7 +274,7 @@ h2 {
 }
 
 .gigantic {
-    height: 50%; 
+    height: 400px; 
     width: 80%;
     margin-left: 10%; 
     margin-right: 10%; 
@@ -339,10 +337,6 @@ h1, h2 {
 
 ol {
     padding-left: 15px; 
-}
-
-.text-center {
-    padding-left: 5%;
 }
 
 @media screen and (max-width: 992px) {
