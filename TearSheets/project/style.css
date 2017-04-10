@@ -337,9 +337,10 @@ h1, h2 {
 
 ol {
     padding-left: 15px; 
+    list-style-position: inside;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     body {
         text-align: center; 
     }
@@ -352,6 +353,22 @@ ol {
         margin-left: 8.333333%;
         margin-right: 8.333333%;
         margin-bottom: 30px;
+    }
+    .freeButton, .professionalButton, .enterpriseButton {
+        margin-top: 50px;
+    }
+     .center {
+        margin-top: 750px;
+    }
+        form {
+        width: 120%; 
+        margin-left: -10%;
+        margin-right: 10%; 
+    }
+        .center {
+        width: 80%; 
+        margin-left: 10%; 
+        margin-right: 10%; 
     }
 }
 
@@ -387,30 +404,11 @@ ol {
     }
 }
 
-@media screen and (max-width: 991px) {
-    .center {
-        margin-top: 650px;
-    }
-    ol {
-        list-style-type: none;
-    }
-}
-
 @media screen and (max-width: 944px) {
-    form {
-        width: 120%; 
-        margin-left: -10%;
-        margin-right: 10%; 
-    }
     .inputOne, .inputTwo, .inputThree {
         width: 100%; 
     }
     .inputThree {
         margin-top: 0px; 
-    }
-    .center {
-        width: 80%; 
-        margin-left: 10%; 
-        margin-right: 10%; 
     }
 }
