@@ -68,6 +68,7 @@ textarea:focus, input:focus{
 .Button {
     border-radius: 5px; 
     height: 40px;
+    border-style: solid; 
 }
 
 .ButtonOne {
@@ -271,6 +272,7 @@ h2 {
     border-radius: 5px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    padding-top: 4px;
 }
 
 .gigantic {
@@ -299,7 +301,7 @@ h1, h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #EBF8F5;
-    border-color: #EBF8F5;
+    border-color: #CDEDE6;
     color: #098D71;
 }
 
@@ -315,6 +317,7 @@ h1, h2 {
 .freeButton, .professionalButton, .enterpriseButton {
     font-weight: bold; 
     letter-spacing: 1.25; 
+    border-style: solid; 
 }
 
 .firstPageNavbar {
