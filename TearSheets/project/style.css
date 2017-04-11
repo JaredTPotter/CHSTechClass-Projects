@@ -357,18 +357,45 @@ ol {
     .freeButton, .professionalButton, .enterpriseButton {
         margin-top: 50px;
     }
-     .center {
+    .center {
         margin-top: 750px;
     }
-        form {
+    form {
         width: 120%; 
         margin-left: -10%;
         margin-right: 10%; 
     }
-        .center {
+    .center {
         width: 80%; 
         margin-left: 10%; 
         margin-right: 10%; 
+    }
+    .spacingPadding {
+        width: 100%;
+    }
+    .width100A {
+        width: 80%; 
+        margin-left: 10%;
+    }
+    .width100B {
+        width: 100%;
+    }
+    .width100C {
+        width: 100%;
+        text-align: center; 
+        margin-top: 0px;
+    }
+    .width100D {
+        width: 100%;
+        margin-left: 0%; 
+    }
+    .width100E {
+        width: 100%;
+        text-align: center; 
+        margin-top: 20px;
+    }
+    .subNavbarA {
+        margin-bottom: 20px; 
     }
 }
 
@@ -394,13 +421,22 @@ ol {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .signin {
+@media screen and (max-width: 767px) {
+    .signinSpecial {
         margin-left: 5%;
+    }
+    .width100A {
+        margin-left: 0%; 
+    }
+    .width100C {
+        margin-left: 0%; 
     }
     .logo {
         margin-top: 10px; 
         width: 200px;
+    }
+    .drag-drop-container {
+        margin-top: 130px; 
     }
 }
 
