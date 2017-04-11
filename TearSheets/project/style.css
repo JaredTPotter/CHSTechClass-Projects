@@ -407,6 +407,12 @@ ol {
         text-align: center; 
         padding-top: 28px;
     }
+    .learnMoreA {
+        margin-top: -35px;
+    }
+    .learnMoreB {
+        margin-top: -15px;
+    }
 }
 
 @media screen and (max-width: 537px) {
