@@ -80,6 +80,13 @@ textarea:focus, input:focus{
     color: #29C090;
 }
 
+.ButtonOne:hover {
+    background-color: #098D71;
+    border-width: 1px; 
+    border-color: #098D71;
+    color: white;
+}
+
 .ButtonTwo {
     margin: 0px auto;
     background-color: #098D71;
