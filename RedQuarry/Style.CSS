@@ -207,3 +207,8 @@ input:focus, select:focus {
         width: 200%;
     }
 }
+@media screen and (max-width:565px) {
+    #consultationheader {
+        width: 250%;
+    }
+}
