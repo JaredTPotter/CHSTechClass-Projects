@@ -341,6 +341,10 @@ ol {
     list-style-position: inside;
 }
 
+.olEnterprise {
+    margin-top: -17px; 
+}
+
 @media screen and (max-width: 991px) {
     body {
         text-align: center; 
@@ -446,7 +450,7 @@ ol {
         margin-top: 130px; 
     }
 }
-
+
 @media screen and (max-width: 944px) {
     .inputOne, .inputTwo, .inputThree {
         width: 100%; 
