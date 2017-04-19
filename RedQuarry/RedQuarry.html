@@ -71,7 +71,31 @@
 <!--BODY STUFF-->
 <div class="container">
 
-    <div class="col-sm-7">
+    <div class="consultationform col-sm-5 col-sm-push-7">
+        <div class="consultationtext>">
+            <h1>REQUEST A <br /> CONSULTATION</h1></div>
+            <hr />
+            <form>
+                <div class="formbuttons">
+                FIRST NAME:<br />
+                <input class="input" type="text" name="firstname"><br />
+                EMAIL (PRIVACY POLICY):<br />
+                <input class="input" type="text" name="email"><br />
+                WHAT IS YOUR ROLE?:<br /> 
+                        <select name="dropdown-content">
+                        <button class="dropbtn">Select</button>
+                        <form action="process.php" method='post'>
+                        <option value="Other">Other</option>
+                        <option value="Research">Research</option>
+                        <option value="Management">Management</option>
+                        <option value="Compliance">Compliance</option>
+                        </select>
+                        </form>
+                </div>
+            </form>
+        <button class="consultation">OUR FREE CONSULTATION</button>
+    </div>
+    <div class="col-sm-7 col-sm-pull-5">
         <h2>GET A FREE CONSULTATION OF<br />
         YOUR RESEARCH PROCESS.</h2><br />
 
@@ -104,31 +128,6 @@
         with our clients. <br />
 
         We look forward to helping you optimize your research process! <br />
-    </div>
-
-    <div class="consultationform col-sm-5">
-        <div class="consultationtext>">
-            <h1>REQUEST A <br /> CONSULTATION</h1></div>
-            <hr />
-            <form>
-                <div class="formbuttons">
-                FIRST NAME:<br />
-                <input class="input" type="text" name="firstname"><br />
-                EMAIL (PRIVACY POLICY):<br />
-                <input class="input" type="text" name="email"><br />
-                WHAT IS YOUR ROLE?:<br /> 
-                        <select name="dropdown-content">
-                        <button class="dropbtn">Select</button>
-                        <form action="process.php" method='post'>
-                        <option value="Other">Other</option>
-                        <option value="Research">Research</option>
-                        <option value="Management">Management</option>
-                        <option value="Compliance">Compliance</option>
-                        </select>
-                        </form>
-                </div>
-            </form>
-        <button class="consultation">OUR FREE CONSULTATION</button>
     </div>
 </div>
 
