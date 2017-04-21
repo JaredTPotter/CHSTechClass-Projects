@@ -93,8 +93,13 @@ textarea:focus, input:focus{
     border-color: #098D71;
     color: white;
     width: 100%;
-    border: none;
     height: 33px;
+}
+
+.ButtonTwo:hover {
+    background-color: #098D71;
+    border-color: #29C0A0;
+    color: white; 
 }
 
 .ButtonTwoDiv {
@@ -109,8 +114,13 @@ textarea:focus, input:focus{
     border-color: cornflowerblue;
     color: white;
     width: 100%;
-    border: none;
     height: 33px;
+}
+
+.ButtonThree:hover {
+    background-color: cornflowerblue;
+    border-color: #75CDBC;
+    color: white; 
 }
 
 .bob {
@@ -272,13 +282,19 @@ h2 {
     margin-bottom: 10px; 
     background-color: #098D71;
     border-color: #098D71;
+    border-width: 1px; 
     color: white;
-    border: none;
     height: 45px;
     border-radius: 5px;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-top: 4px;
+}
+
+.footerNavbarButton:hover {
+    background-color: white; 
+    color: #098D71;
+    border-color: #098D71; 
 }
 
 .gigantic {
