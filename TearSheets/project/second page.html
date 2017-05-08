@@ -2,7 +2,7 @@
 
 <head>
     <title>TearSheets</title>
-    <link rel="SHORTCUT ICON" href="">
+    <link rel="SHORTCUT ICON" href="../_assets/logoIcon.png">
     <link rel="Stylesheet" href="bootstrap/css/bootstrap.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
@@ -10,80 +10,75 @@
 </head>
 
 <body>
-   <div class="container-fluid secondPageNavbar">
+    <div class="container-fluid secondPageNavbar">
         <div class="col-sm-3 col-xs-4">
-            <button class="Button ButtonOne">Create a Tearsheet</button>
+            <button class="Button ButtonOne createButtonNav">Create a Tearsheet</button>
         </div>
 
         <div class="col-sm-push-1 col-sm-4 col-xs-4 text-center">
             <img src="../_design/Logo.png" class="logo" />
         </div>
 
-        <div class="signin col-sm-push-2 col-sm-3 col-xs-4 text-right bob" href="#">Sign In</div>
+        <div class="signin signinSpecial col-sm-push-2 col-sm-3 col-xs-4 text-right bob">Sign In</div>
+
+    </div>
+
     </div> 
+
     <div Class="full">
-        <button class="col-lg-3 col-sm-2 Button ButtonOne slight b1p2">Download a sample file</button>
-        <div class="col-lg-6 col-sm-3 subNavbarA"> 1 Import your tearsheet</div>
-        <div class="col-lg-3 signin col-sm-2 text-right subNavbarB" href="#">
+        <div class="col-lg-1 col-md-1 col-sm-0"></div> 
+        <button class="col-lg-2 col-md-2 col-sm-12 Button ButtonOne slight createButtonNav width100A">Download a sample file</button>
+        <div class="col-lg-2 col-md-2 col-sm-0 spacingPadding"></div>
+        <div class="col-lg-2 col-md-2 col-sm-12 subNavbarA width100B"><img src="../_assets/ImportTearsheet.png"/></div>
+        <div class="col-lg-2 col-md-2 col-sm-0"></div>
+        <div class="col-lg-2 col-md-2 col-sm-12 signin text-right subNavbarB width100C learnMoreA" href="#">
             <a class="terms">
                 <u>Learn More</u>
             </a>
         </div>
+        <div class="col-lg-1 col-md-1 col-sm-0"></div> 
     </div>
 
     <div class="drag-drop-container">
         <div class="col-sm-6">
-            <img src="../_design/logo.png" />
+            <img src="../_design/Create image.png" />
         </div>
         <div class="col-sm-6">
             <h3>Drag and drop your data file here</h3>
             <p>or</p>
-            <h3>Click here to open from your desktop</h3>
+            <h3><a href="#">Click here</a> to open from your desktop</h3>
         </div>
     </div>
 
-    <div Class="full"> </div>
-    <br />
-    <div class="block">
-        <div Class="full">
-            <button class="col-sm-2 col-sm-offset-2 Button ButtonOne">Download a sample file</button>
-            <div class="col-sm-3 col-sm-offset-2 "> 1 Import your tearsheet</div>
-            <div class="signin col-sm-2 col-sm-offset-2 text-right" href="#">
-                <a class="terms">
-                    <u>Learn More</u>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div Class="full">
-        <div class="col-sm-3 col-sm-offset-2 "> 2 Design your tear sheet</div>
-        <div class="signin col-sm-2 col-sm-offset-2 text-right" href="#">
+   
+    <div class="full tertiaryBar">
+        <div class="col-sm-3 col-sm-offset-5 designGraphic width100D"><img src="../_assets/DesignTearsheet.png"/></div>
+        <div class="signin col-sm-2 col-sm-offset-1 text-right width100E learnMoreB" href="#">
             <a class="terms">
                 <u>Learn More</u>
             </a>
         </div>
     </div>
-
-    <div Class="tiny col-lg-3 col-md-12 col-sm-12 block">
-        <button class="Button ButtonOne one">Free</button>
-        <h1>$0</h1>
-        <h2>Per user/month billed anually</h2>
-        <p>With a free Tearcheets.io account you get...</p>
-        <ol>
+    
+    <div class="gigantic col-lg-12 col-md-12 col-sm-12">
+    <div class="tiny col-lg-4 col-md-4 col-sm-12 block removePaddingLeft">
+        <button class="Button freeButton one">Free</button>
+        <h1 class="options optionsPrice">$0</h1>
+        <h2 class="options optionsText">Per user/month<br />billed anually</h2>
+        <p class="benefits">With a free Tearcheets.io account you get...</p>
+        <ol class="benefits">
             <li>10 Free tearsheets / month</li>
             <li>1 Default template</li>
             <li>Default disclosures</li>
         </ol>
     </div>
 
-
-    <div Class="tiny col-lg-2 col-md-12 col-sm-12 block"><button class="Button ButtonOne one">Professional</button>
-
-
-                <h1>$20</h1>
-                <h2>Per user/month billed anually</h2>
-                <p>With a basic Tearcheets.io account you get...</p>
-                <ol>
+    <div Class="tiny col-lg-4 col-md-4 col-sm-12 block">
+        <button class="Button professionalButton one">Professional</button>
+                <h1 class="options optionsPrice">$20</h1>
+                <h2 class="options optionsText">Per user/month<br />billed anually</h2>
+                <p class="benefits">With a basic Tearcheets.io account you get...</p>
+                <ol class="benefits">
                     <li>Unlimited tearsheets</li>
                     <li>Multiple templates</li>
                     <li>Custom disclosures</li>
@@ -91,11 +86,11 @@
             </div>
 
 
-            <div Class="tiny col-lg-2 col-md-12 col-sm-12 block"><button class="Button ButtonOne one">Enterprise</button>
-                <h1>TBD</h1>
-                <h2>Contact out perter team for details</h2>
-                <p>With a professional Tearcheets.io account you get...</p>
-                <ol>
+            <div Class="tiny col-lg-4 col-md-4 col-sm-12 block removePaddingRight"><button class="Button enterpriseButton one">Enterprise</button>
+                <h1 class="options optionsPrice">TBD</h1>
+                <h2 class="options optionsText">Contact our partner<br />team for details</h2>
+                <p class="benefits">With a professional Tearcheets.io account you get...</p>
+                <ol class="benefits olEnterprise">
                     <li>Unlimited tearsheets</li>
                     <li>Multiple and custom templates</li>
                     <li>Custom logos</li>
@@ -103,8 +98,8 @@
                     <li>Custom data intergration</li>
                 </ol>
             </div>
-
-
+</div>
+<br />
 
 
             <div class="col-lg-3 col-md-4 col-sm-10 center">
@@ -131,12 +126,11 @@
             </div>
 
             <br />
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/pnD76ZLWEz8?autoplay=1" frameborder="0" style="display: none"></iframe>
-
         </div>
 
-
+<div class="footerNavbar col-lg-12 col-mg-12 col-sm-12">
+    <button class="footerNavbarButton">Preview</button>
+</div>
 
 </body>
 
